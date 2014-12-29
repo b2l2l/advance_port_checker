@@ -12,11 +12,36 @@
     
   </div>
 </nav>
+<nav class="navbar navbar-default navbar-fixed-bottom">
+  <div class="container">
+
+<address><center>
+  <strong>Fork Me on </strong><br>
+  <a href="https://github.com/b2l2l/advance_port_checker/fork">Github & Star <3 </a>
+</address></center>
+  </div>
+</nav>
 
 
-<p class="bg-primary">
-This is Created For Learning Purpose and can be used Freely By anyone .
-</p>
+
+
+</br>
+</br>
+</br>
+
+
+<div class="jumbotron">
+  <h1>Marhba!</h1>
+  <p> 
+ This Project was made for Learning Purpose .code Is available and free for anyone</p>
+  <p><a class="btn btn-primary btn-lg" href="https://github.com/b2l2l/advance_port_checker" role="button">Learn more</a></p>
+</div>
+
+
+
+
+
+
 <form class="form-horizontal" action="index.php" method="post" >
 <fieldset>
 <div class="form-group">
@@ -47,10 +72,6 @@ This is Created For Learning Purpose and can be used Freely By anyone .
 
 
 
-<address><center>
-  <strong>Fork Me on </strong><br>
-  <a href="https://github.com/b2l2l/advance_port_checker/fork">Github & Star <3 </a>
-</address></center>
 
 
 </head> 
