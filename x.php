@@ -1,6 +1,6 @@
 <?php 
 $host = $_POST['host'];
-$ports = array(2083);
+$ports = array($_POST['checks']);
 
 foreach ($ports as $port)
 {
@@ -8,14 +8,13 @@ foreach ($ports as $port)
 
     if (is_resource($connection))
     {
-     $output= '<h2>' . $host . ':' . $port . ' ' . '(' . getservbyport($port, 'tcp') . ') is open.</h2>' . "\n";
+     $output= '<h2><center>' . $host . ':' . $port . ' ' . '(' . getservbyport($port, 'tcp') . ') is open.</center></h2>' . "\n";
 		echo $output;
         fclose($connection);
     }
 
     else
     {
-        echo '<h2>' . $host . ':' . $port . ' is not responding.</h2>' . "\n";
     }
 } 
 
