@@ -4,7 +4,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-
+<style>
+body {
+padding-top:20px; }
+</style>
 <head> 
 <div class="container">
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -12,19 +15,12 @@
     
   </div>
 </nav>
-<nav class="navbar navbar-default navbar-fixed-bottom">
-  <div class="container">
-
-<address><center>
-  <strong>Fork Me on </strong><br>
-  <a href="https://github.com/b2l2l/advance_port_checker/fork">Github & Star <3 </a>
-</address></center>
-  </div>
-</nav>
 
 
 
+</head> 
 
+<body>
 </br>
 </br>
 </br>
@@ -42,7 +38,7 @@
 
 
 
-<form class="form-horizontal" action="index.php" method="post" >
+<form class="form-horizontal"  method="post" >
 <fieldset>
 <div class="form-group">
   <label class="col-md-4 control-label" for="host">Host / IP</label>  
@@ -55,8 +51,11 @@
   <label class="col-md-4 control-label" for="checks">Check Select</label>
   <div class="col-md-4">
     <select id="checks" name="checks" class="form-control">
-      <option value="80">up</option>
-      <option value="20">ftp</option>
+      <option value="80">up or down</option>
+      <option value="2083">Cpanel</option>
+      <option value="22">SSH</option>
+      <option value="21">FTP</option>
+	  
     </select>
   </div>
 </div>
@@ -69,10 +68,22 @@
 </div>
 </fieldset>
 </form>
+<?php include 'x.php'; ?>
 
 
 
 
+</body>
 
-</head> 
+</br>
+<nav class="navbar navbar-default navbar-bottom">
+  <div class="container">
+
+<address><center>
+  <strong>Fork Me on </strong><br>
+  <a href="https://github.com/b2l2l/advance_port_checker/fork">Github & Star <3 </a>
+</address></center>
+  </div>
+</nav>
 </html> 
+
