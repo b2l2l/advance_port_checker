@@ -7,7 +7,11 @@
 
 <head> 
 <div class="container">
-
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    
+  </div>
+</nav>
 
 
 <p class="bg-primary">
