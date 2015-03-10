@@ -2,7 +2,7 @@ advance_port_checker
 ========
 A Very Simple php Script to make some checks 
 ========
-
+update 2/11/2015 ( if you got no respone in 30second , it' means site you try to check is down . ' ) #bug-unsolved
 checks 
 
 1- Site Is up or down 
